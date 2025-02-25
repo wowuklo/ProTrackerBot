@@ -1,0 +1,13 @@
+{
+  "name": "phpstormproject/protreckbot",
+  "description": "Telegram bot for Dota 2 data",
+  "autoload": {
+    "psr-4": {
+      "App\\" : "src/"
+    }
+  },
+  "require": {
+    "ext-curl": "*",
+    "ext-dom": "*"
+  }
+}
